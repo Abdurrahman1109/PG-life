@@ -1,0 +1,67 @@
+.background-img{
+    width: 100%;
+    position: ;
+    
+}
+body{
+    margin: 0px;
+}
+.head{
+    text-align: center;
+    color: aliceblue;
+}
+.search{
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 300px;
+
+}
+.form-control{
+    font-size: 20px;
+}
+#button-addon2{
+    font-size: 20px;
+
+}
+/* City Icon */
+.city-icon{
+    text-align: center;
+}
+@media (max-width:768px){
+    .n-bar{
+        position: static;
+    }
+    .search{
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .head{
+        font-size: 30px;
+    }
+    .city-card{
+        width: 50%;
+        margin: 10px auto;
+    }
+    .city-card-container{
+        margin: 0 auto;
+    }
+    .search{
+        width: 60%;
+        margin: 0 auto;
+        position: relative;
+        bottom: 200px;
+    }
+    .city-search{
+        font-size: 10px;
+    }
+}
+.city-card{
+  padding: 20px; 
+  border-radius: 100%;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.city-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
